@@ -25,16 +25,18 @@ Ten projekt służy do generowania profesjonalnie sformatowanego kodu HTML na po
 - Pliki wejściowe (klucz API oraz artykuł w formacie tekstowym).
   
 ## Instrukcja uruchomienia
-Ustawienie klucza API:
+1. Ustawienie klucza API:
 
-Utwórz plik **data/API_KEY.txt** i umieść w nim swój klucz API OpenAI.
-Przygotowanie artykułu:
+    Utwórz plik **data/API_KEY.txt** i umieść w nim swój klucz API OpenAI.
 
-Utwórz plik **data/article.txt** zawierający artykuł tekstowy, który chcesz przekształcić na HTML. (Przykładowy artykuł jest w: data/article.txt)
-Uruchomienie programu:
+2. Przygotowanie artykułu:
 
-Aby uruchomić skrypt i wygenerować plik HTML, uruchom **main.py**.
+    Utwórz plik **data/article.txt** zawierający artykuł tekstowy, który chcesz przekształcić na HTML. (Przykładowy artykuł jest w: data/article.txt)
 
-Wynik:
+3. Uruchomienie programu:
+
+    Aby uruchomić skrypt i wygenerować plik HTML, uruchom **main.py**.
+
+## Wynik:
 
 Po zakończeniu skryptu wygenerowany plik HTML zostanie zapisany w katalogu roboczym jako **artykul.html**.
